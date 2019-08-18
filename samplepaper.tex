@@ -1,16 +1,19 @@
 % This is samplepaper.tex, a sample chapter demonstrating the
 % LLNCS macro package for Springer Computer Science proceedings;
 % Version 2.20 of 2017/10/04
-%
+% 
 \documentclass[runningheads]{llncs}
 %
 \usepackage{graphicx}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
 % Used for displaying a sample figure. If possible, figure files should
 % be included in EPS format.
 %
 % If you use the hyperref package, please uncomment the following line
 % to display URLs in blue roman font according to Springer's eBook style:
 % \renewcommand\UrlFont{\color{blue}\rmfamily}
+\pagestyle{empty}
 
 
 \begin{document}
@@ -34,6 +37,12 @@ and by CONICYT PCHA/Doctorado Nacional 2015/21151445.}}
 \email{mquezada@dcc.uchile.cl}}
 %
 \maketitle              % typeset the header of the contribution
+
+{\let\thefootnote\relax\footnotetext{Copyright \textcopyright\ 2019 for this
+paper by its authors. Use permitted under Creative Commons License Attribution
+4.0 International (CC BY 4.0). FDIA~2019, 17-18 July 2019, Milan, Italy.}}
+
+
 %
 \begin{abstract}
     Online activity involves the consumption and production of event-related
@@ -405,10 +414,10 @@ high-level quantitative analysis of news events. \\
 %
 }
 
-The quantitative analysis of news events is useful to understand how the news
-make an impact on society, how they are perceived by users, or how can we
-archive this kind of information for future use, as more content is produced in
-a digital-only format.
+Quantitative analysis of news events is useful to understand how the news impact
+society. For example, how are they perceived by users, or how can we archive
+this kind of information for future use, as more content is produced in a
+digital-only format.
 
 \paragraph{Challenges.} We identified three main challenges.
 
